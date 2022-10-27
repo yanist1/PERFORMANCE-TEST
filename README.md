@@ -38,5 +38,5 @@
 6. go to your output directory
 7. there's html file report
 
-### HHOW TO TRIGGER CI
+### HOW TO TRIGGER CI
 push something to master
