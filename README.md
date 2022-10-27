@@ -1,22 +1,23 @@
-<!-- GETTING STARTED -->
-### Prerequisites
 
-- Register to get the API token key -  [https://www.weatherbit.io/account/create](https://www.weatherbit.io/account/create)
-- install Java and [download Jmeter](https://jmeter.apache.org/download_jmeter.cgi)
+### PRE-REQUESITES
 
-### Installation
-1. Register to get the API token key -  [https://www.weatherbit.io/account/create](https://www.weatherbit.io/account/create)
-2. Clone the repo
-   ```sh
+1. Register to get the API token key on this web 
+```https://www.weatherbit.io/account/create```
+2. Install Java and download Jmeter on this web
+```https://jmeter.apache.org/download_jmeter.cgi```
+
+### INSTALLATION
+1. Clone the repository to your directory
+   ```
    git clone https://github.com/auliabalqis16/performance-test-jmeter.git
    ```
-3. go to {your directory}/apache-jmeter-5.5/bin
-4. open jmeter GUI
+3. Open {your directory}/apache-jmeter-5.5/bin
+4. Open jmeter GUI
 - use terminal and using following comand ./jmeter.sh (linux/mac os)
 - double click jmeter.bat (windows)
 5. change value`s token on 'User Defined Variables' to your API token
 
-### How to run
+### HOW TO RUN
 1. open terminal
 2. go to {your directory}/apache-jmeter-5.5/bin
 3. Enter following command, jmeter -n –t test.jmx -l testresults.jtl
@@ -25,7 +26,7 @@
 -l: Name of JTL(JMeter text logs) file to log results
 -j: Name of JMeter run log file
 
-### How to Generate HTML Report
+### HOW TO GENERATE HTML REPORT
 1. go to {your directory}/apache-jmeter-5.5/bin
 2. click Tools
 3. click Generate HTML Report
@@ -37,5 +38,5 @@
 6. go to your output directory
 7. there's html file report
 
-### How to Trigger CI (Github Action)
+### HHOW TO TRIGGER CI
 push something to master
